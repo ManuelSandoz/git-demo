@@ -1,10 +1,16 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-  cout << "Hello there!\n";
-  cout<< "No talk me I angy >:[ \n";
+  string username;
+  cout << "Welcome to my branch!\n";
+  cout<< "What is your name?";
+  cin>> username;
+
+  cout<< "Nice to meet you " << username << "!\n";
 
   return 0;
 }
